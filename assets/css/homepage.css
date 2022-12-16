@@ -79,7 +79,7 @@ body{
     }
   }
 .top-part{
-    background-color: rgba(31,207,251,255);
+    background-color: #2a67f4;
     position: sticky;
     top:0%;
     z-index:1;
@@ -99,25 +99,30 @@ a {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    padding-top:8%;
+    padding-top:4%;
+    padding-left:20px;
     font-size:25px;
     
 }
-
+.website-title{
+  height:120px;
+  width:120px;
+  border-radius: 50%;
+}
 .features-container a{
-  color: black;
+  color: white;
  
   text-decoration: none;
 }
 .navigation{
-    
-    text-decoration: none;
+  text-decoration: none;
+ 
 }
 .navigation :hover{
   height: 10%;
   width:15%;
-  background-color:white;
-  padding:10px;
+  background-color:black;
+  padding: 10px;;
 }
 
 .second-main{
