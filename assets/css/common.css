@@ -137,7 +137,7 @@ a {
   width: 15%;
   background-color: black;
   padding: 10px;
-  ;
+  
 }
 
 .second-main {
@@ -203,11 +203,7 @@ input[id=search] {
   display:flex;
   justify-content:center;
 }
-.brown-shelf{
-  
- 
-  
-}
+
 form {
   display: flex;
   justify-content: center;
@@ -229,8 +225,6 @@ form {
   height: 50px;
   padding: 10px;
   border: 5px solid black;
-
-
 }
 
 #search::placeholder {
@@ -315,15 +309,15 @@ form {
   border-radius: 18px;
   height: 360px;
   width: 270px;
-  margin-left: 5%;
+  margin-left: 3.5%;
 }
 
 .alphabet-container .book-cards:nth-child(odd) {
-  background-color: aqua;
+  background-color: #5cceff;
 }
 
 .alphabet-container .book-cards:nth-child(even) {
-  background-color: #0AA1DD;
+  background-color: #2a67f4;
 }
 
 .top {
@@ -344,15 +338,24 @@ form {
 
 .firstfont {
   font-size: 20px;
-  color: black;
   text-align: center;
-
-
+}
+.firstfont:nth-child(odd){
+  color:black;
+}
+.firstfont:nth-child(even){
+  color:black;
 }
 
 .secondfont {
-  color: hsl(215, 51%, 70%);
   text-align: center;
+}
+.secondfont:nth-child(odd){
+  color:white;
+}
+
+.secondfont:nth-child(even){
+ color:white;
 }
 
 .top {
@@ -434,15 +437,15 @@ audio {
 }
 
 .card-2:hover .content-inside {
-  transform: rotateY(-180deg);
+  transform: rotateY(180deg);
 }
 
 .card-3:hover .content-inside {
-  transform: rotateX(-180deg);
+  transform: rotateY(180deg);
 }
 
 .card-4:hover .content-inside {
-  transform: rotateX(180deg);
+  transform: rotateY(180deg);
 }
 
 .front-view,
@@ -542,7 +545,7 @@ input[type=password] {
   float: right;
 }
 
-.sign-up-button :hover {
+.sign-up-button:hover {
   background-color: #45a049;
 }
 
